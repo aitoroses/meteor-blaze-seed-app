@@ -4,14 +4,12 @@
       "git": "https://github.com/EventedMind/iron-router.git",
       "branch": "blaze-integration"
     },
-    "blaze-layout": {
-      "git": "https://github.com/EventedMind/blaze-layout.git",
-      "branch": "devel"
-    },
     "nprogress": {},
     "GAnalytics": {},
     "roles": {},
     "animate-css": {},
-    "fast-render": {}
+    "fast-render": {},
+    "fastclick": {},
+    "font-awesome": {}
   }
 }
