@@ -1,0 +1,29 @@
+<template name="applicationContent">
+  <div class="content {{white}}">
+    {{> applicationHeader}}
+    {{> applicationHome}}
+    {{> applicationFooter}}
+  </div>
+</template>
+
+<!-- Application Header -->
+<template name="applicationHeader">
+  <header class="applicationHeader">
+    <div class="menu-button" alt="menu">
+      <i class="fa fa-align-left"></i>
+    </div>
+    <div class="title">Meteor Seed App</div>
+  </header>
+</template>
+
+<!-- Application Home -->
+<template name="applicationHome">
+  <div class="applicationHome">
+      {{> yield}}
+  </div>
+</template>
+
+<!-- Application Footer -->
+<template name="applicationFooter">
+  {{> yield region="footer"}}
+</template>
