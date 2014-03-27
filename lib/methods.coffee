@@ -4,6 +4,6 @@
 if Meteor.isServer
 
 	Meteor.methods {
-		foo: () ->
+		foo: ->
 			return "Bar"
 	}

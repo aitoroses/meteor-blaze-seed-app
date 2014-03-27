@@ -8,7 +8,6 @@ autopublish
 insecure
 preserve-inputs
 coffeescript
-stylus
 fastclick
 iron-router
 blaze-layout
@@ -21,3 +20,5 @@ showdown
 font-awesome
 fast-render
 http
+handlebar-helpers
+stylus-multi

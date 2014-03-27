@@ -6,13 +6,33 @@
         "git": "https://github.com/EventedMind/iron-router.git",
         "branch": "blaze-integration"
       },
-      "nprogress": {},
-      "GAnalytics": {},
-      "roles": {},
-      "animate-css": {},
-      "fast-render": {},
-      "fastclick": {},
-      "font-awesome": {}
+      "nprogress": {
+        "version": "0.0.3"
+      },
+      "GAnalytics": {
+        "version": "0.1.1"
+      },
+      "roles": {
+        "version": "1.2.6"
+      },
+      "animate-css": {
+        "version": "2.1.0"
+      },
+      "fast-render": {
+        "version": "0.1.22"
+      },
+      "fastclick": {
+        "version": "0.6.7"
+      },
+      "font-awesome": {
+        "version": "4.0.3"
+      },
+      "handlebar-helpers": {
+        "version": "0.1.1"
+      },
+      "stylus-multi": {
+        "version": "0.0.2"
+      }
     },
     "packages": {
       "iron-router": {
@@ -54,6 +74,16 @@
         "git": "https://github.com/nate-strauser/meteor-font-awesome.git",
         "tag": "v4.0.3",
         "commit": "61e9361384347547ae144f8228faa4deffda23db"
+      },
+      "handlebar-helpers": {
+        "git": "https://github.com/raix/Meteor-handlebar-helpers.git",
+        "tag": "v0.1.1",
+        "commit": "0b407ab65e7c1ebd53d71aef0de2e2c1d21a597c"
+      },
+      "stylus-multi": {
+        "git": "https://github.com/furrio/meteor-stylus-multi.git",
+        "tag": "v0.0.2",
+        "commit": "f9a3e832f43edfda74d845fce6007725f5e05a5f"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",

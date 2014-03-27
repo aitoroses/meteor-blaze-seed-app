@@ -1,4 +1,3 @@
-bootstrap-3
 /fastclick
 /font-awesome
 /iron-router
@@ -9,3 +8,5 @@ bootstrap-3
 /roles
 /animate-css
 /fast-render
+/handlebar-helpers
+/stylus-multi

@@ -10,6 +10,8 @@
     "animate-css": {},
     "fast-render": {},
     "fastclick": {},
-    "font-awesome": {}
+    "font-awesome": {},
+    "handlebar-helpers": {},
+    "stylus-multi": {}
   }
 }
