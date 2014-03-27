@@ -15,11 +15,7 @@ if Meteor.isClient
 
     # Install Controller
     SectionController = FastRender.RouteController.extend
-        template: "SectionContent"
-        load: ->
-            Session.set('whiteContentBackground', true);
-        unload: ->
-            Session.set('whiteContentBackground', undefined);
+        template: "LoginView"
 
 
     ########################################
@@ -32,7 +28,7 @@ if Meteor.isClient
             path : "/"
             controller: IndexController
 
-        @route "section",
-            path : "/section"
+        @route "login",
+            path : "/login"
             controller: SectionController
 

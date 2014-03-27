@@ -1,0 +1,31 @@
+<template name="LoginView">
+	<div class="loginWrapper">
+		{{> LoginMain}}
+		{{> LoginFooter}}
+	</div>
+</template>
+
+<template name="LoginMain">
+	<div class="login-logo"></div>
+	<form action="login" class="pure-form">
+		<fieldset class="pure-group">
+			<div class="contains-icon">
+				<input type="text" class="pure-input-1" placeholder="Username">
+				<i class="fa fa-user"></i>
+			</div>
+			<div class="contains-icon">
+				<input type="password" class="pure-input-1" placeholder="Password">
+				<i class="fa fa-lock"></i>
+			</div>
+		</fieldset>
+		<button type="submit" class="pure-button pure-button-primary">Login</button>
+	</form>
+</template>
+
+<!-- Login Footer -->
+<template name="LoginFooter">
+	<div class="loginFooter">
+		Core Principles & Elements | Novartis Brand Style Guide<br>
+		© Novartis 2013 | www.novartisbrandservice.com
+	</div>
+</template>

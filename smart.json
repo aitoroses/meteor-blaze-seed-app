@@ -12,6 +12,7 @@
     "fastclick": {},
     "font-awesome": {},
     "handlebar-helpers": {},
-    "stylus-multi": {}
+    "stylus-multi": {},
+    "purecss": {}
   }
 }

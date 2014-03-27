@@ -8,12 +8,7 @@
 
 <!-- Application Header -->
 <template name="applicationHeader">
-  <header class="applicationHeader">
-    <div class="menu-button" alt="menu">
-      <i class="fa fa-align-left"></i>
-    </div>
-    <div class="title">Meteor Seed App</div>
-  </header>
+  {{> yield region="header"}}
 </template>
 
 <!-- Application Home -->

@@ -52,11 +52,3 @@ Template.applicationHeader.events
 # White content background helper
 Template.applicationContent.white = ->
   if Session.get('whiteContentBackground') is true then "white" else ""
-
-
-# ------------------------- #
-#  Application Menu         #
-# ------------------------- #
-Template.applicationMenu.events 
-  "click a": ->
-    Session.set("menuopen", false)

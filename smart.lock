@@ -6,33 +6,16 @@
         "git": "https://github.com/EventedMind/iron-router.git",
         "branch": "blaze-integration"
       },
-      "nprogress": {
-        "version": "0.0.3"
-      },
-      "GAnalytics": {
-        "version": "0.1.1"
-      },
-      "roles": {
-        "version": "1.2.6"
-      },
-      "animate-css": {
-        "version": "2.1.0"
-      },
-      "fast-render": {
-        "version": "0.1.22"
-      },
-      "fastclick": {
-        "version": "0.6.7"
-      },
-      "font-awesome": {
-        "version": "4.0.3"
-      },
-      "handlebar-helpers": {
-        "version": "0.1.1"
-      },
-      "stylus-multi": {
-        "version": "0.0.2"
-      }
+      "nprogress": {},
+      "GAnalytics": {},
+      "roles": {},
+      "animate-css": {},
+      "fast-render": {},
+      "fastclick": {},
+      "font-awesome": {},
+      "handlebar-helpers": {},
+      "stylus-multi": {},
+      "purecss": {}
     },
     "packages": {
       "iron-router": {
@@ -84,6 +67,11 @@
         "git": "https://github.com/furrio/meteor-stylus-multi.git",
         "tag": "v0.0.2",
         "commit": "f9a3e832f43edfda74d845fce6007725f5e05a5f"
+      },
+      "purecss": {
+        "git": "https://github.com/MikkoVirenius/meteor-purecss.git",
+        "tag": "v0.3.0",
+        "commit": "1e9d4e1686efe1001960044c068a077f5e09241e"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
