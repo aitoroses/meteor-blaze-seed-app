@@ -76,7 +76,7 @@
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
         "branch": "master",
-        "commit": "2664f817844fba0fab0455a79bc62782c9091ad0"
+        "commit": "8bc53798fe5965669ae67c72f91829fcfdceabfd"
       }
     }
   }
