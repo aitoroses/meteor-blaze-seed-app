@@ -22,3 +22,5 @@ http
 handlebar-helpers
 stylus-multi
 purecss
+session-amplify
+amplify

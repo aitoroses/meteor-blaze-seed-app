@@ -13,6 +13,7 @@
     "font-awesome": {},
     "handlebar-helpers": {},
     "stylus-multi": {},
-    "purecss": {}
+    "purecss": {},
+    "session-amplify": {}
   }
 }

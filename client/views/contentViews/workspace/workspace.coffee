@@ -4,7 +4,7 @@
 
 
 Template.WorkspaceView.workflowContext = ->
-	return JSON.stringify(Session.get("workflowContext") || {}, null, 2)
+	return JSON.stringify(SessionAmplify.get("workflowContext") || {}, null, 2)
 
 Template.WorkspaceView.events({
 

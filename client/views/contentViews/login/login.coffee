@@ -17,7 +17,7 @@ Template.LoginView.events({
 
 		# Call meteor authenticate method
 		Meteor.call "authenticateUser",[login, password], (err, res) ->
-			Session.set('workflowContext', res.data)
+			SessionAmplify.set('workflowContext', res.data)
 
 			# Go to the workspace
 			Router.go("workspace")
