@@ -13,9 +13,13 @@ if Meteor.isClient
     IndexController = FastRender.RouteController.extend
         template: "logo"
 
-    # Install Controller
-    SectionController = FastRender.RouteController.extend
+    # Login Controller
+    LoginController = FastRender.RouteController.extend
         template: "LoginView"
+
+    # Login Controller
+    WorkspaceController = FastRender.RouteController.extend
+        template: "WorkspaceView"
 
 
     ########################################
@@ -30,5 +34,9 @@ if Meteor.isClient
 
         @route "login",
             path : "/login"
-            controller: SectionController
+            controller: LoginController
+
+        @route "workspace",
+            path : "/workspace"
+            controller: WorkspaceController
 

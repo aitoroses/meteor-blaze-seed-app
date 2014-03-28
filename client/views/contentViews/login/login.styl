@@ -12,7 +12,7 @@
         width: 300px
         margin auto
         position: relative
-        top: 260px
+        top: 37%;
         +tablet()
             right: 200px
 
@@ -51,8 +51,11 @@
             line-height: 24px
             background linear-gradient( top, #ffd100, #fcb200 )
 
-            &:hover
+            &:hover, &:visited, &:focus
                 background linear-gradient( bottom, #ffd100, #fcb200 )
+
+            &:active
+                background linear-gradient( bottom, darken(#ffd100, 20%), darken(#fcb200, 20%))
 
     .loginFooter
         padding: 10px
