@@ -8,10 +8,8 @@ if Meteor.isClient
     # Configure Router to use the Main template
     Router.configure
         layoutTemplate: "App"
+        notFoundTemplate: "notFoundTemplate"
 
-    # Index Controller
-    IndexController = FastRender.RouteController.extend
-        template: "logo"
 
     # Login Controller
     LoginController = FastRender.RouteController.extend
@@ -28,9 +26,6 @@ if Meteor.isClient
 
     Router.map ->
 
-        @route "index",
-            path : "/"
-            controller: IndexController
 
         @route "login",
             path : "/login"

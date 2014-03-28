@@ -6,39 +6,17 @@
         "git": "https://github.com/EventedMind/iron-router.git",
         "branch": "blaze-integration"
       },
-      "nprogress": {
-        "version": "0.0.3"
-      },
-      "GAnalytics": {
-        "version": "0.1.1"
-      },
-      "roles": {
-        "version": "1.2.6"
-      },
-      "animate-css": {
-        "version": "2.1.0"
-      },
-      "fast-render": {
-        "version": "0.1.22"
-      },
-      "fastclick": {
-        "version": "0.6.7"
-      },
-      "font-awesome": {
-        "version": "4.0.3"
-      },
-      "handlebar-helpers": {
-        "version": "0.1.1"
-      },
-      "stylus-multi": {
-        "version": "0.0.2"
-      },
-      "purecss": {
-        "version": "0.3.0"
-      },
-      "session-amplify": {
-        "version": "0.1.1"
-      }
+      "nprogress": {},
+      "GAnalytics": {},
+      "roles": {},
+      "animate-css": {},
+      "fast-render": {},
+      "fastclick": {},
+      "font-awesome": {},
+      "handlebar-helpers": {},
+      "stylus-multi": {},
+      "purecss": {},
+      "session-amplify": {}
     },
     "packages": {
       "iron-router": {
