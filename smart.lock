@@ -34,8 +34,8 @@
       },
       "fast-render": {
         "git": "https://github.com/arunoda/meteor-fast-render.git",
-        "tag": "v0.1.22",
-        "commit": "13c1d80bfd0366ad8d84f7a6ffa3cd9c21f9721e"
+        "tag": "v0.1.23",
+        "commit": "933b9d8992f1c7004f9993b1b15dffe3bac672f3"
       },
       "fastclick": {
         "git": "https://github.com/percolatestudio/meteor-fastclick",

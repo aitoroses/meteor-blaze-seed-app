@@ -123,6 +123,8 @@ i
 
         .block
 
+            padding-bottom: 20px
+
             h1 
                 padding-left: 15px
                 font-size 1.5em
@@ -137,9 +139,6 @@ i
 
             li.active
                 background-color: $redDark
-
-            &:last-child
-                padding-bottom: 20px
 
     .aside
         inline-block()
@@ -178,7 +177,6 @@ i
                     inline-block()
                     height: 100%
 
-
             .search
                 vertical-align: top
 
@@ -187,8 +185,19 @@ i
 
                 .searchBtn
                     line-height: 0.6 * $worklistToolbarHeight
+
+        .worklist
+            table
+                width: 100%
+
+                thead
+                    background-color: white
+                    font-weight 400
+                    font-size: 14px
+
+                tbody
+                    tr:nth-child(odd)
+                        background-color $cream
+
+                
                     
-
-
-
-

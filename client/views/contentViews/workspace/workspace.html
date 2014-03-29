@@ -7,6 +7,7 @@
 	</div>
 </template>
 
+
 <template name="workspaceTopbar">
     <div class="workspaceTopbar">
         <div class="align-left">
@@ -21,12 +22,14 @@
     </div>
 </template>
 
+
 <template name="workspaceItems">
     <div class="workspaceItems">
         <div class="item active"><i class="fa fa-folder-open-o"></i>Task List</div>
         <div class="item"><i class="fa fa-search"></i>Search</div>
     </div>
 </template>
+
 
 <template name="workspaceMain">
     <div class="workspaceMain">
@@ -65,6 +68,26 @@
                 <div class="align-right">
                     <i class="fa fa-refresh refreshIcon"></i>
                 </div>
+            </div>
+            <div class="worklist">
+                <table class="pure-table">
+                    <thead>
+                        <tr>
+                            <th style="width: 50%">TaskId</th>
+                            <th>Number Creator</th>
+                            <th>Assigned</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{#each tasks}}
+                            <tr>
+                                <td>{{title}}</td>
+                                <td>{{taskNumber}}</td>
+                                <td>{{assignedDate}}</td>
+                            </tr>
+                        {{/each}}
+                    </tbody>
+                </table>         
             </div>
         </section>
     </div>
