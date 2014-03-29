@@ -1,0 +1,194 @@
+
+$topbarHeight = 70px
+$itemsHeight = 50px
+$worklistToolbarHeight = 50px
+
+$grayLight = #f8f5f2
+$gray = darken($grayLight, 10%)
+$brown = #594128
+$brownLight = lighten($brown, 10%)
+$red = #a23720
+$redDark = #80230f
+$cream = #ffeed2
+
+
+//-----------------------------//
+// Globals                     //
+//-----------------------------//
+
+i
+    margin 0 5px
+
+//-----------------------------//
+// workspaceTopbar             //
+//-----------------------------//
+
+
+.workspaceTopbar
+    background-color: white
+    height: $topbarHeight
+    width: 100%
+    position: relative
+
+
+    div
+        height: 100%
+        inline-block()
+        text-align center
+        line-height $topbarHeight
+
+    .align-left
+        position absolute
+        left 0
+        span(1/3)
+
+        .logo
+            background: url("/images/login/novartis_logo.png") no-repeat
+            background-size: auto 100%
+            span(1/2)
+
+        .title
+            font-weight: bold
+            color: #B6AEA5;
+            text-shadow: darken($gray, 20%)
+            span(1/2)
+
+    .align-right
+        position absolute
+        right 0
+        span(1/3)
+        uppercase()
+        font-size 12px
+
+        & > div
+            span(1/3)
+            border-left 2px solid #E7E7E7
+            cursor: pointer
+            &:hover
+                background-color: $grayLight
+
+
+//-----------------------------//
+// workspaceItems              //
+//-----------------------------//
+
+.workspaceItems
+    background-color: $brown
+    height: $itemsHeight
+    width: 100%
+    position: relative
+    
+    .item
+        float left
+        line-height: $itemsHeight
+        width: 130px
+        color: $grayLight
+        inline-block()
+        text-align: center
+        &:hover
+            background-color: $brownLight
+        
+        &.active
+            background-color $grayLight
+            color: $brown
+            &:hover
+                background-color: $gray
+
+
+//-----------------------------//
+// workspaceMain               //
+//-----------------------------//
+
+.workspaceMain
+    width: 100%
+
+    .sidebar
+        inline-block()
+        span(1/5)
+        background-color: $red
+        color: white
+        border-right: 4px solid $redDark
+
+        .spacer
+            height: 2px
+            background-color $redDark
+            margin: 0 15px
+
+        .titleItem
+            padding: 25px
+            font-size: 28px
+
+            i
+                padding-right: 0.5em
+
+        .block
+
+            h1 
+                padding-left: 15px
+                font-size 1.5em
+            
+            li
+                list-style: none
+                padding: 3px 0 3px 35px
+
+            li:hover
+                text-decoration: underline
+                cursor: pointer
+
+            li.active
+                background-color: $redDark
+
+            &:last-child
+                padding-bottom: 20px
+
+    .aside
+        inline-block()
+        span(4/5)
+
+        .worklistToolbar
+            position: relative
+            width: 100%
+            background-color: $cream
+            height: $worklistToolbarHeight
+
+            i
+                color: $redDark
+                cursor: pointer
+
+            .spacer
+                width: 1px
+                background-color: rgba($redDark, 0.4)
+
+            .align-right
+                inline-block()
+                position: absolute
+                right: 0
+
+                .refreshIcon
+                    line-height: 0.6 * $worklistToolbarHeight
+                    margin: 0.2 * $worklistToolbarHeight
+                    margin-right: 20px;
+
+            .item
+                inline-block()
+                height: 0.6 * $worklistToolbarHeight
+                margin: 0.2 * $worklistToolbarHeight
+
+                *
+                    inline-block()
+                    height: 100%
+
+
+            .search
+                vertical-align: top
+
+                input
+                    height: 100%
+
+                .searchBtn
+                    line-height: 0.6 * $worklistToolbarHeight
+                    
+
+
+
+

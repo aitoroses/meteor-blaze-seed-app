@@ -26,7 +26,6 @@ if Meteor.isClient
 
     Router.map ->
 
-
         @route "login",
             path : "/login"
             controller: LoginController

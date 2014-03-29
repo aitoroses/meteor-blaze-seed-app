@@ -7,8 +7,6 @@
         "branch": "blaze-integration"
       },
       "nprogress": {},
-      "GAnalytics": {},
-      "roles": {},
       "animate-css": {},
       "fast-render": {},
       "fastclick": {},
@@ -28,16 +26,6 @@
         "git": "https://github.com/zhouzhuojie/meteor-nprogress.git",
         "tag": "v0.0.3",
         "commit": "ffd1c5dd400af64121197f4e637a215c4b6b1fc7"
-      },
-      "GAnalytics": {
-        "git": "https://github.com/datariot/meteor-ganalytics.git",
-        "tag": "v0.1.1",
-        "commit": "91b19d37687bb2cd7976fb43b482143a53509d7e"
-      },
-      "roles": {
-        "git": "https://github.com/alanning/meteor-roles.git",
-        "tag": "v1.2.6",
-        "commit": "f2a9058281f8f2fe028767841d7445aadd6893cf"
       },
       "animate-css": {
         "git": "https://github.com/nate-strauser/meteor-animate-css.git",

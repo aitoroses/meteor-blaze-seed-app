@@ -11,8 +11,6 @@ fastclick
 iron-router
 blaze-layout
 nprogress
-GAnalytics
-roles
 underscore
 animate-css
 showdown
